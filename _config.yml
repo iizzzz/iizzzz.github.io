@@ -34,7 +34,7 @@ github_username:  iizzzz
 additional_links:
 - title: itsgoingto.be
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://root-ca.tistory.com/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,16 +50,13 @@ additional_links:
 - encoding: UTF-8
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Devops를 꿈꾸며 개발 능력 보유를 위해 20주 과정 웹 개발 부트캠프 코드스테이츠를 수료하였습니다.
-  수료 후 기본만 잘하자는 마인드로 취업하기 전까지 열심히 준비 중 입니다.
+  Devops로의 전향을 위한 개발 능력 보유를 위해 20주 과정 웹 개발 부트캠프 코드스테이츠를 수료하였습니다.
 
   - [ Language ] Java
   - [ Framework & Library ] Spring Boot, Spring Data JPA, JWT, OAuth2
   - [ DataBase ] Mysql, MariaDB
   - [ Linux ] Docker, Kubernetes
   - [ Tools ] Git, AWS(EC2, RDS, S3), Jira
-
-  - 블로그 : root-ca.tistory.com
   
   Spring Boot기반 Spring Data JPA & JWT를 활용한 웹 개발
   RDB & AWS 와 Github Actions을 이용한 CI/CD 구축
@@ -71,8 +68,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Tea Time project
-        link: 배포링크 > http://project-teatime-dev.s3-website.ap-northeast-2.amazonaws.com/
+        title: 티타임 - 그룹 테라피 서비스
+        link: 배포링크 - http://project-teatime-dev.s3-website.ap-northeast-2.amazonaws.com/
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -84,11 +81,12 @@ content:
         quote: >
           코드스테이츠 메인 프로젝트 (6인 / 4주)
         description: | # this will include new lines to allow paragraphs
-          | 팀원, 백엔드 : Spring Boot, JPA, JWT, Mysql, AWS
+          팀원, 백엔드 : Spring Boot, JPA, JWT, Mysql, AWS
           | 2023.01 - 2023.02
-          | 요구사항 정의서 & DB ERD & API 명세서 작성
-          | JWT 토큰 기반 인증 구현
-          | AWS S3, RDS & Github Actions를 이용한 CI/CD 구축
+          1. 요구사항 정의서 & DB ERD & API 명세서 작성
+          2. JWT 토큰 기반 인증 구현
+          3. AWS S3, RDS & Github Actions를 이용한 CI/CD 구축
+          4. 기능 구현
   - title: 경험 # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -98,10 +96,8 @@ content:
         # link_text: boringcompany.com
         sub_title: 기술지원팀 시스템 엔지니어/주임
         caption: 2021.10 - 2022.07
-        quote: >
-          기술지원팀/주임
         description: | # this will include new lines to allow paragraphs
-            | 서버 구축 및 마운트 & 원격 유지보수 & 데이터 이전 업무 & Fortinet 방화벽 설정 등 인프라 관련 직무를 수행하였습니다.
+            서버 구축 및 마운트 & 원격 유지보수 & 데이터 이전 업무 & Fortinet 방화벽 설정 등 인프라 관련 직무를 수행하였습니다.
 
   - title: 학력 # Title for the section
     layout: list # Type of content section (list/text)
