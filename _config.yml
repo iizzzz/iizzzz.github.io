@@ -1,19 +1,18 @@
-encoding: UTF-8
 # Site
-repository: iizzzz/iizzzz.github.io
+repository: iizzzz/github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: 신건우
+name: 신건우(KunWoo Shin)
 title: 백엔드 개발자
-email: relicaset02@gmail.com
-website: https://root-ca.tistory.com/
+email: kakaohwy@gmail.com
+#website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 #twitter_username: facespics
@@ -22,8 +21,8 @@ github_username:  iizzzz
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-#instagram_username: jameswgrant
-#linkedin_username: jameswgrant
+instagram_username: replicaset03
+linkedin_username: Kun Woo Shin
 # xing_username: jekyll
 # pinterest_username: jekyll
 #youtube_username: globalmtb
@@ -32,9 +31,9 @@ github_username:  iizzzz
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  - title: 티스토리 기술 블로그
+    icon: fas fa-globe
+    url: https://root-ca.tistory.com/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -47,87 +46,105 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/wonyong.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Devops를 꿈꾸며 개발 능력 보유를 위해 20주 과정 웹 개발 부트캠프 코드스테이츠를 수료하였습니다.
-  수료 후 기본만 잘하자는 마인드로 취업하기 전까지 열심히 준비 중 입니다.
-
-  - [ Language ] Java
-  - [ Framework & Library ] Spring Boot, Spring Data JPA, JWT, OAuth2
-  - [ DataBase ] Mysql, MariaDB
-  - [ Linux ] Docker, Kubernetes
-  - [ Tools ] Git, AWS(EC2, RDS, S3), Jira
-
-  - 블로그 : root-ca.tistory.com
+  안녕하세요. 신건우입니다. 시스템 엔지니어로 근무하다 Devops라는 직업의 소양중 개발능력이 필수라는 것을 듣게되어 백엔드 부트캠프를 수강했습니다.
+  처음에는 어렵기만 하고 그다지 재미가 없었는데 자격증을 따기 전까지 힘들고 땄을때 엄청난 쾌감이 오는것 처럼
+  시스템 엔지니어 직무를 할때 만났던 에러 해결의 쾌감보다 수십배는 더 재밌고 진짜 하고 싶은 일이 생긴것 같아, 개발자의 길을 쭉 가겠다고 마음먹었습니다.
+  사실 그냥 개발자가 멋있어서 일단 도전 한 부분도 있고 현재까지 잘 배워왔다고 생각합니다.
   
-  Spring Boot기반 Spring Data JPA & JWT를 활용한 웹 개발
-  RDB & AWS 와 Github Actions을 이용한 CI/CD 구축
-  2회의 협업 프로젝트 경험
+  저는 <strong>오버 커뮤니케이션을 지향합니다.</strong> 이번 프로젝트에서는 팀원들과 많은 이야기를 나누지 못했고, 이는 곧 프로젝트의 결과물과 직결이 되었습니다.
+  보다 많은 커뮤니케이션을 통해 서로에게 피드백을 주고 받고 코드 리팩토링 등의 과정을 거쳐야 원활한 진행에 도움이 되고, 결과적으로 개개인의 성장과 더불어 프로젝트의 결과물도 좋을 것이라는 생각이 있습니다. 
 
 content:
-  - title: 프로젝트 # Title for the section
+  - title: Skills  # Title for the section
+    quote: >
+      공부하고 있거나, 공부했던 기술입니다.
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+          * <strong>Java</strong> : 부트캠프에서 본격적으로 배웠고 현재 주력으로 사용하고 있는 언어입니다. 모르는 게 있을 때마다 찾아가며 공부하고 있습니다.
+          * <strong>Spring Boot</strong>, <strong>Spring MVC</strong>, <strong>Spring Data JPA</strong> : MVC 패턴과 Spring Boot 기반의 학습을 진행했으며 ORM에 대해 학습하였습니다.
+          * <strong>Gradle</strong>, <strong>IntelliJ</strong> 부트캠프 내 모든 컨텐츠와 메인 프로젝트에서 사용했습니다. 빌드 도구는 Gradle 외에 maven 등의 사용경험이 없습니다.
+      - layout: left
+        title: DataBase
+        description: | # this will include new lines to allow paragraphs
+          * <strong>MySQL</strong> : RDBMS에 대해 기본적인 내용을 알고 있습니다. 메인프로젝트에서 사용했습니다.
+          * <strong>Redis</strong> : NoSQL, 인메모리 DB, 캐시 서버에 대해 학습 후 사용한 경험이 있습니다. 구체적으로 인메모리 DB를 활용한 JWT 토큰 관리와 캐시 서버 구현 실습 경험이 있습니다.
+      - layout: left
+        title: Ops
+        description: | # this will include new lines to allow paragraphs
+          * <strong>AWS</strong> : CI/CD 구축을 위해 CodePipeline & CodeDeploy & RDS & S3를 사용했습니다.
+          * <strong>Github Actions</strong> : Githhub Actions가 AWS S3에 빌드 결과물을 전송하면 S3가 이를 CodeDeploy에게 전달하여 EC2에 배포 및 실행하는 플로우로 진행했습니다.
+          * <strong>Docker</strong> : 컨테이너 이미지를 통한 버전관리와 Private Registry를 통해 이미지를 관리하고 Dockerfile을 빌드 하는 등 기본적인 사용법을 숙지하고 있습니다.
+          * <strong>Kubernetes</strong> : 기본적인 클러스터 생성 & Node/Pod의 Lifecycle 관리 & Helm & Prometheus & Grapana 를 설치해 실습한 경험이 있습니다.
+          * <strong>Fortinet</strong> : 주력 UTM 장비인 Forti 방화벽 장비의 마운트와 SNAT, DNAT 설정 등 경험이 있습니다.
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Tea Time project
-        link: 배포링크 > http://project-teatime-dev.s3-website.ap-northeast-2.amazonaws.com/
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        title: 부트캠프 메인 프로젝트
+        icon: fab fa-github
+        link: http://project-teatime-dev.s3-website.ap-northeast-2.amazonaws.com/
+        caption: 2023.01 - 2023.02
+          #         link_text: Project Website
+          #        additional_links:
+          #          - title:  sproogen/modern-resume-theme
+          #            icon: fab fa-github
+          #            url: https://github.com/wonyongg/seb41_main_027
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          코드스테이츠 메인 프로젝트 (6인 / 4주)
+          우리가 함께 그려나가는 서울 친환경 지도, 여러분들의 장소를 공유해주세요.
         description: | # this will include new lines to allow paragraphs
-          팀원, 백엔드 : Spring Boot, JPA, JWT, Mysql, AWS
-          | 2023.01 - 2023.02
-          요구사항 정의서 & DB ERD & API 명세서 작성
-          JWT 토큰 기반 인증 구현
-          AWS S3, RDS & Github Actions를 이용한 CI/CD 구축
+          이 프로젝트는 부트 캠프에서 진행한 메인 프로젝트입니다. 
+          프론트엔드3 백엔드3 총 6명이서 진행하였으며, 기존 상담어플들의 그룹상담 기능의 부재로 인해 기획을 하게 되었습니다. 
+          <br><br>
+          이번 메인 프로젝트에서 어렵고 복잡한 기능을 구현하는 것보다 <strong>설계부터 배포 후 유지 보수까지 개발 프로세스 전반적으로 기초를 좀 더 다지며 구현하는 것에 집중</strong>했습니다. 백엔드 개발자에게 있어 중요한 것은 <strong>성능 최적화로부터 이어지는 안정적인 서버 운영과, 객체지향적인 코드 설계로 높은 유지 보수성을 이끌어내는 것</strong>이라고 생각하기 때문입니다. <br><br>
+          기본 구현을 끝낸 뒤 <strong>성능 최적화를 위해 코드 리팩터링을</strong>했습니다. 짧은 개발 기간 동안 모든 API에 대한 최적화를 진행하는 것은 무리라고 판단하여 요청 비율이 높은 API를 선별해 응답 속도를 확인하려고 했습니다. 그러나 로그를 남기는 것만으로는 API 요청 비율을 알기 어려워 <strong>로그의 시각화가 필요</strong>했습니다. 이를 위해 <strong>AWS의 CloudWatch와 Grafana를 사용</strong>하였습니다. CloudWatch를 통해 로그 데이터를 수집하고 grafana를 이용해 그래프로 표현하니 한 눈에 API 요청 비율을 확인할 수 있었습니다. <br><br>
+          이후 API 요청 비율이 높은 세 개의 메서드에 <strong>N+1 문제를 해결하는 쿼리 최적화</strong>와, <strong>Redis를 이용한 캐시 서버 도입</strong>으로 속도 향상 및 데이터베이스의 부하를 감소시키는 성능 최적화 작업을 수행했습니다. <br><br>
+          마지막으로 <strong>Sonarqube를 활용하여 코드 품질 검사를 진행</strong>하였습니다. 아쉽게도 저희 프로젝트는 초기 검사에서 15%의 매우 낮은 테스트 커버리지가 나왔습니다. Sonarqube를 통해 테스트 코드 작성을 제대로 하지 않은 것에 대해 반성하게 되었고 테스트 주도 개발에 대해 공부하게 되는 계기가 되었습니다.
 
-  - title: 경험 # Title for the section
+  #  - title: Experience # Title for the section
+  #    layout: list # Type of content section (list/text)
+  #    content:
+  #      - layout: left
+  #        title: The Boring Company
+  #        link: boringcompany.com
+  #        # link_text: boringcompany.com
+  #        sub_title: Senior Network System Administrator
+  #        caption: November 2017 - Present
+  #        quote: >
+  ##          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  #        description: | # this will include new lines to allow paragraphs
+  #            test
+
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: 고은정보기술
-#        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: 기술지원팀 시스템 엔지니어/주임
-        caption: 2021.10 - 2022.07
-        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-            인프라 관련 직무를 수행하였습니다.
-            - 서버 구축 및 마운트
-            - 원격 유지보수
-            - 데이터 이전 업무
-            - Fortinet 방화벽 설정 등 
-
-  - title: 학력 # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
+      - layout: top-middle
+        title: 코드스테이츠 백엔드 부트캠프 41기
+        caption: 2022.08 - 2023.02
+        sub_title: 자바 스프링 백엔드 부트캠프
+        quote: | # this will include new lines to allow paragraphs
+          자바와 스프링을 메인으로 웹 애플리케이션을 개발하기 위한 전반적인 내용에 대해 학습했습니다.
+      - layout: top-middle
         title: 덕수고등학교
-        caption: 2010 - 2013
+        caption: 2010.03 - 2013.03
         sub_title: 문과
-        description: |
-          졸업
-
-  - title: A Little More About Me
+        quote: | # this will include new lines to allow paragraphs
+  - title: Licenses
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
+      - 리눅스마스터 1급
+      - CKA (Certified Kubernetes Administrator
+      - 정보처리기능사
+      - 정보기기운용기능사
+      - 리눅스마스터 2급
+      - 네트워크관리사 2급
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
@@ -140,5 +157,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
-
+  - jekyll-seo-tag
