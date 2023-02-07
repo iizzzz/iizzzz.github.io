@@ -65,12 +65,12 @@ about_content: | # this will include new lines to allow paragraphs
   2회의 협업 프로젝트 경험
 
 content:
-  - title: Projects # Title for the section
+  - title: 프로젝트 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Tea Time project
-        link: http://project-teatime-dev.s3-website.ap-northeast-2.amazonaws.com/
+        link: 배포링크 > http://project-teatime-dev.s3-website.ap-northeast-2.amazonaws.com/
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -82,13 +82,13 @@ content:
         quote: >
           코드스테이츠 메인 프로젝트 (6인 / 4주)
         description: | # this will include new lines to allow paragraphs
-          팀원, 백엔드 : Spring Boot, JPA, JWT, Mysql, AWS
-          2023.01 - 2023.02
-          요구사항 정의서 & DB ERD & API 명세서 작성
-          JWT 토큰 기반 인증 구현
-          AWS S3, RDS & Github Actions를 이용한 CI/CD 구축
+          | 팀원, 백엔드 : Spring Boot, JPA, JWT, Mysql, AWS
+          | 2023.01 - 2023.02
+          | 요구사항 정의서 & DB ERD & API 명세서 작성
+          | JWT 토큰 기반 인증 구현
+          | AWS S3, RDS & Github Actions를 이용한 CI/CD 구축
 
-  - title: Experience # Title for the section
+  - title: 경험 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -100,9 +100,9 @@ content:
         quote: >
           기술지원팀/주임
         description: | # this will include new lines to allow paragraphs
-            서버 구축 및 마운트 & 원격 유지보수 & 데이터 이전 업무 & Fortinet 방화벽 설정 등 인프라 관련 직무를 수행하였습니다.
+            | 서버 구축 및 마운트 & 원격 유지보수 & 데이터 이전 업무 & Fortinet 방화벽 설정 등 인프라 관련 직무를 수행하였습니다.
 
-  - title: Education # Title for the section
+  - title: 학력 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
