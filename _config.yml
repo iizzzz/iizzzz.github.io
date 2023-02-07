@@ -62,6 +62,8 @@ about_content: | # this will include new lines to allow paragraphs
   RDB & AWS 와 Github Actions을 이용한 CI/CD 구축
   2회의 협업 프로젝트 경험
 
+
+
 content:
   - encoding: UTF-8
   - title: 프로젝트 # Title for the section
@@ -82,11 +84,13 @@ content:
           코드스테이츠 메인 프로젝트 (6인 / 4주)
         description: | # this will include new lines to allow paragraphs
           팀원, 백엔드 : Spring Boot, JPA, JWT, Mysql, AWS
-          | 2023.01 - 2023.02
-          1. 요구사항 정의서 & DB ERD & API 명세서 작성
-          2. JWT 토큰 기반 인증 구현
-          3. AWS S3, RDS & Github Actions를 이용한 CI/CD 구축
-          4. 기능 구현
+          2023.01 - 2023.02
+          - 요구사항 정의서 & DB ERD & API 명세서 작성
+          - JWT 토큰 기반 인증 구현
+          - AWS S3, RDS & Github Actions를 이용한 CI/CD 구축
+          - 기능 구현
+          
+
   - title: 경험 # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -104,20 +108,20 @@ content:
     content:
       - layout: left
         title: 덕수고등학교
-        caption: 2010 - 2013
+        caption: 2010 - 2013 졸업
         sub_title: 문과
 
-  - title: A Little More About Me
+
+  - title: 자격증
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - 리눅스마스터 1급
+      - CKA (Certified Kubernetes Administrator)
+      - 정보처리 기능사
+      - 정보기기운용 기능사
+      - 리눅스마스터 2급
+      - 네트워크 관리사 2급
 
 # Footer
 footer_show_references: true
