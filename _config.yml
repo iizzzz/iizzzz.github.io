@@ -100,7 +100,11 @@ content:
         quote: >
 
         description: | # this will include new lines to allow paragraphs
-            | 서버 구축 및 마운트 & 원격 유지보수 & 데이터 이전 업무 & Fortinet 방화벽 설정 등 인프라 관련 직무를 수행하였습니다.
+            인프라 관련 직무를 수행하였습니다.
+            - 서버 구축 및 마운트
+            - 원격 유지보수
+            - 데이터 이전 업무
+            - Fortinet 방화벽 설정 등 
 
   - title: 학력 # Title for the section
     layout: list # Type of content section (list/text)
@@ -109,6 +113,8 @@ content:
         title: 덕수고등학교
         caption: 2010 - 2013
         sub_title: 문과
+        description: |
+          졸업
 
   - title: A Little More About Me
     layout: text
