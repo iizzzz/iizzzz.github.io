@@ -66,6 +66,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           * <strong>Java</strong> : 부트캠프에서 본격적으로 배웠고 현재 주력으로 사용하고 있는 언어입니다. 모르는 게 있을 때마다 찾아가며 공부하고 있습니다.
           * <strong>Spring Boot</strong>, <strong>Spring MVC</strong>, <strong>Spring Data JPA</strong> : MVC 패턴과 Spring Boot 기반의 학습을 진행했으며 ORM에 대해 학습하였습니다.
+          * <strong>Spring Security</strong> : Authentication & Authorization과 SecurityContextHolder에 대한 이해, 토큰 기반 인증 방식인 JWT와 외부 API를 이용한 OAuth2를 구현한 경험이 있습니다.
           * <strong>Gradle</strong>, <strong>IntelliJ</strong> 부트캠프 내 모든 컨텐츠와 메인 프로젝트에서 사용했습니다. 빌드 도구는 Gradle 외에 maven 등의 사용경험이 없습니다.
       - layout: left
         title: DataBase
