@@ -130,11 +130,6 @@ content:
         quote: | # this will include new lines to allow paragraphs
           자바와 스프링을 메인으로 웹 애플리케이션을 개발하기 위한 전반적인 내용에 대해 학습했습니다.
       - layout: top-middle
-        title: 덕수고등학교
-        caption: 2010.03 - 2013.03
-        sub_title: 문과
-        quote: | # this will include new lines to allow paragraphs
-      - layout: top-middle
         title: 고은정보기술
         caption: 2021.10 - 2022.07
         sub_title: 기술지원팀/주임
@@ -145,6 +140,11 @@ content:
           - 방화벽 & NAS 등 마운트/설정 작업<br>
           - 보안 취약점 분석 & 평가<br>
           - 컨테이너 Lifecycle 관리
+      - layout: top-middle
+        title: 덕수고등학교
+        caption: 2010.03 - 2013.03
+        sub_title: 문과
+        quote: | # this will include new lines to allow paragraphs
   - title: Licenses
     layout: text
     content: | # this will include new lines to allow paragraphs
