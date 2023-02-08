@@ -139,10 +139,10 @@ content:
         caption: 2021.10 - 2022.07
         sub_title: 기술지원팀/주임
         quote: | # this will include new lines to allow paragraphs
-          - 서버 구축 및 마운트
-          - 서버 원격 유지보수
-          - SSL 발급
-          - 방화벽 & NAS 등 마운트/설정 작업
+          - 서버 구축 및 마운트<br>
+          - 서버 원격 유지보수<br>
+          - SSL 발급<br>
+          - 방화벽 & NAS 등 마운트/설정 작업<br>
           - 보안 취약점 분석 & 평가
   - title: Licenses
     layout: text
