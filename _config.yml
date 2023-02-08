@@ -148,7 +148,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       - 리눅스마스터 1급
-      - CKA (Certified Kubernetes Administrator
+      - CKA (Certified Kubernetes Administrator)
       - 정보처리기능사
       - 정보기기운용기능사
       - 리눅스마스터 2급
