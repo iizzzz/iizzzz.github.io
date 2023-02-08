@@ -72,7 +72,6 @@ content:
         title: DataBase
         description: | # this will include new lines to allow paragraphs
           * <strong>MySQL</strong> : RDBMS에 대해 기본적인 내용을 알고 있습니다. 메인프로젝트에서 사용했습니다.
-          * <strong>Redis</strong> : NoSQL, 인메모리 DB, 캐시 서버에 대해 학습 후 사용한 경험이 있습니다. 구체적으로 인메모리 DB를 활용한 JWT 토큰 관리와 캐시 서버 구현 실습 경험이 있습니다.
       - layout: left
         title: Ops
         description: | # this will include new lines to allow paragraphs
