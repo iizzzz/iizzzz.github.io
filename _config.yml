@@ -143,7 +143,8 @@ content:
           - 서버 원격 유지보수<br>
           - SSL 발급<br>
           - 방화벽 & NAS 등 마운트/설정 작업<br>
-          - 보안 취약점 분석 & 평가
+          - 보안 취약점 분석 & 평가<br>
+          - 컨테이너 Lifecycle 관리
   - title: Licenses
     layout: text
     content: | # this will include new lines to allow paragraphs
