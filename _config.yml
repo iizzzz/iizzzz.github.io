@@ -97,7 +97,7 @@ content:
           #   icon: fab fa-github
         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          우리가 함께 그려나가는 서울 친환경 지도, 여러분들의 장소를 공유해주세요.
+          이젠 상담도 그룹으로 하자, 티타임.
         description: | # this will include new lines to allow paragraphs
           이 프로젝트는 부트 캠프에서 진행한 메인 프로젝트입니다. 
           프론트엔드3 백엔드3 총 6명이서 진행하였으며, 기존 상담어플들의 그룹상담 기능의 부재로 인해 기획을 하게 되었습니다. 
