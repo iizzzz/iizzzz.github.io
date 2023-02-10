@@ -47,8 +47,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 신건우입니다. 시스템 엔지니어로 근무하다 Devops라는 직업의 소양중 <strong>개발능력</strong>이 필수라는 것을 듣게되어 백엔드 부트캠프를 수강했습니다. <br><br>
-  처음에는 어렵기만 하고 그다지 재미가 없었는데 자격증을 따기 전까지 힘들고 땄을때 엄청난 쾌감이 오는것 처럼
+  안녕하세요. 신건우입니다. Devops라는 직업의 소양중 <strong>개발능력</strong>이 필수라는 것을 접하게 백엔드 부트캠프를 수강했습니다. <br><br>
+  처음에는 와닿는 부분이 적어 어려움을 겪었으나 자격증을 따기 전까지 힘들고 땄을때 엄청난 쾌감이 오는것 처럼
   시스템 엔지니어 직무를 할때 만났던 에러 해결의 쾌감보다 수십배는 더 재밌고 진짜 하고 싶은 일이 생긴것 같아, 개발자의 길을 쭉 가겠다고 마음먹었습니다. <br>
   솔직하게 말하면 그냥 개발자가 멋있어서 일단 도전을 한 부분도 있고 그만큼 열심히 하는 건 자신있으며, 블로그에 배운 내용을 꼼꼼히 기록해놓았습니다. <br><br>
   
@@ -131,17 +131,6 @@ content:
         sub_title: 자바 스프링 백엔드 부트캠프
         quote: | # this will include new lines to allow paragraphs
           자바와 스프링을 메인으로 웹 애플리케이션을 개발하기 위한 전반적인 내용에 대해 학습했습니다.
-      - layout: top-middle
-        title: 고은정보기술
-        caption: 2021.10 - 2022.07
-        sub_title: 기술지원팀/주임
-        quote: | # this will include new lines to allow paragraphs
-          - 서버 구축 및 마운트 (Linux & Windows 서버)<br>
-          - 서버 원격 유지보수<br>
-          - SSL 발급<br>
-          - 방화벽 & NAS 등 마운트/설정 작업<br>
-          - 보안 취약점 분석 & 평가<br>
-          - Docker 컨테이너 Lifecycle 관리 및 모니터링
       - layout: top-middle
         title: 덕수고등학교
         caption: 2010.03 - 2013.03
