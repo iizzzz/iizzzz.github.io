@@ -132,6 +132,12 @@ content:
         quote: | # this will include new lines to allow paragraphs
           자바와 스프링을 메인으로 웹 애플리케이션을 개발하기 위한 전반적인 내용에 대해 학습했습니다.
       - layout: top-middle
+        title: 한국디지털융합 직업전문학교
+        caption: 2021.03 - 2021.09
+        sub_title: ICT(Information&CommunicationTechnology)보안은 시스템,네트워크 등 정보통신과 관련된 기반지식을 가지고 조직의 정보자산을 관리적, 물리적, 기술적 보안관점에서 효율적으로 보호하는 능력을 함양
+        quote: | # this will include new lines to allow paragraphs
+          리눅스와 네트워크의 대한 기본적인 서버 지식들, L2,L3 스위치와 서버 구축에 대해 학습하였습니다.
+      - layout: top-middle
         title: 덕수고등학교
         caption: 2010.03 - 2013.03
         sub_title: 문과
