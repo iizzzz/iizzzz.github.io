@@ -105,8 +105,8 @@ content:
           프론트엔드3 백엔드3 총 6명이서 진행하였으며, 기존 상담어플들의 그룹상담 기능의 부재로 인해 기획을 하게 되었습니다. 
           <br><br>
           프로젝트에서 설계부터 기본적인 CRUD와 배포에 집중했습니다. 아직 실무적으로 부족하다고 생각해서 중요한 것은 배웠던걸 기본적으로 잘 접목하여 작지만 강한 어플리케이션을 만들어보고 싶었습니다. <br><br>
-          하지만 기본 구현을 끝낸 뒤 <strong>성능 최적화를 위해 코드 리팩터링을</strong>하는 도중, <strong>N+1 문제</strong>에 대한 원인과 해결방법에 대한 학습과, Fetch 전략 중 Eager/Lazy 중<br><br>
-          Lazy 전략을 사용했을때의 프록시 객체 처리방법, 엔티티간 불필요한 양방향 연관관계도 단방향으로 끊으며 리팩터링 하였고 어플리케이션 배포방법 등의 논의를 거쳐 Github Actions와 AWS를 이용해 파이프라인을 구축했습니다. <br><br>
+          하지만 기본 구현을 끝낸 뒤 <strong>성능 최적화를 위해 코드 리팩터링을</strong>하는 도중, <strong>N+1 문제</strong>가 발생하여 그에 대한 원인 & 해결방법에 대한 학습과, Fetch 전략 Eager/Lazy 중
+          Lazy 전략을 사용했을때의 프록시 객체 처리방법, JPA의 OSIV 옵션을 false로 했을때 발생하는 문제점과 해결, 엔티티간 불필요한 양방향 연관관계도 단방향으로 끊으며 리팩터링 하였고 어플리케이션 배포방법 등의 논의를 거쳐 Github Actions와 AWS를 이용해 파이프라인을 구축했습니다. <br><br>
 
   #  - title: Experience # Title for the section
   #    layout: list # Type of content section (list/text)
