@@ -82,7 +82,7 @@ content:
           * <strong>Github Actions</strong> : Githhub Actions가 AWS S3에 빌드 결과물을 전송하면 S3가 이를 CodeDeploy에게 전달하여 EC2에 배포 및 실행하는 플로우로 진행했습니다.
           * <strong>Docker</strong> : 컨테이너 이미지를 통한 버전관리와 Private Registry를 통해 이미지를 관리하고 Dockerfile을 빌드 하는 등 기본적인 사용법을 숙지하고 있습니다.
           * <strong>Kubernetes</strong> : 기본적인 클러스터 생성 (kubespray, kubeadm 2가지 방법) & Node/Pod의 Lifecycle 관리 & Helm & 데이터 시각화 툴인 Prometheus & Grapana 를 설치해 실습한 경험이 있습니다.
-          * <strong>Fortinet</strong> : 주력 UTM 장비인 FortiGate 방화벽 장비의 마운트와 SNAT, DNAT, Port Fowarding 등의 보안 설정 경험이 있습니다.
+          * <strong>Fortinet</strong> : 주력 UTM 장비인 FortiGate 방화벽의 마운트와 SNAT, DNAT, Port Fowarding 등의 보안 설정 경험이 있습니다.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
