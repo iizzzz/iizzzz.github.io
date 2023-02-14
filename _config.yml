@@ -159,12 +159,12 @@ content:
   - title: Licenses
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - 리눅스마스터 1급
-      - CKA (Certified Kubernetes Administrator)
-      - 정보처리기능사
-      - 정보기기운용기능사
-      - 리눅스마스터 2급
-      - 네트워크관리사 2급
+      - 22.06 취득 - 리눅스마스터 1급
+      - 22.02 취득 - CKA (Certified Kubernetes Administrator)
+      - 21.10 취득 - 정보처리기능사
+      - 21.09 취득 - 정보기기운용기능사
+      - 21.07 취득 - 리눅스마스터 2급
+      - 21.06 취득 - 네트워크관리사 2급
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
