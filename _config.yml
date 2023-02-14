@@ -140,6 +140,7 @@ content:
         quote: | # this will include new lines to allow paragraphs
           - 서버 구축 및 마운트 (Linux & Windows 서버)<br>
           - 서버 원격 유지보수<br>
+          - 서버 간 데이터 이전 작업
           - SSL 발급<br>
           - UTM & SPAM & NAS 등 마운트, 보안 설정 작업<br>
           - 보안 취약점 분석 & 평가<br>
